@@ -1,0 +1,60 @@
+#side {
+    position:absolute;
+    right:100%;
+    width: 50px;
+    height: 50px;
+    z-index: 1000000;
+    color:black;
+
+  }
+  
+  #slidable {
+    position: fixed;
+    top:0;
+    margin-top: 6%;
+    height: 85%;
+    background: black;
+    width: 400px;
+    left: 100%;
+    transition: 0.4s;
+    color:black;
+    text-align:left;
+    font-size:25px;
+    font-weight: 300;
+    color:white;
+  }
+  
+  #slidable.open{
+    left: calc(100% - 200px);
+  }
+  
+  .fa {
+    font-size:30px!;
+    margin-top:25px;
+    color:black;
+  }
+  .bar-cont{
+
+    padding: 200px 200px 200px 0;
+    height: 85%;
+
+  }
+  .top-bar{
+
+top: 0;
+background-color: red;
+height: 100px;
+  }
+  .cont{
+
+top:0;
+background-color: blue;
+height: 85%;
+  }
+  .logo{
+
+    background-color: brown;
+    height: 130px;
+    width: 130px;
+    margin: 50px 50px 50px 50px;
+  }
